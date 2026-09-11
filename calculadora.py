@@ -17,3 +17,10 @@ def multiplicacao(num1, num2):
     return resultado
 
 print("Resultado da multiplicação:", multiplicacao(6, 8))
+
+def divisao(num1, num2):
+    if num2 != 0:
+        resultado = num1 / num2
+        return resultado
+    else:
+        return "Não é possível dividir por zero"
