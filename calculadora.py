@@ -24,3 +24,10 @@ def divisao(num1, num2):
         return resultado
     else:
         return "Não é possível dividir por zero"
+
+
+def calculaRaiz(num):
+    resultado = math.sqrt(num)
+    return resultado
+
+print("Resultado da raiz:", calculaRaiz(81))
